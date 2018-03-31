@@ -1,12 +1,10 @@
 @media screen and (max-width: 450px){
     body{
         width: 450px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .logo{
-
-    }
-    .one, .two, .three{
-       width: 100%;
 
     }
     .one{
@@ -28,5 +26,14 @@
         color: #2d3c49;
         vertical-align: top;
         
+    }
+}
+@media screen and  (min-width: 1200px) {
+    body{
+        width: 1700px;
+
+    }
+    .logo{
+
     }
 }
