@@ -1,0 +1,32 @@
+@media screen and (max-width: 450px){
+    body{
+        width: 450px;
+    }
+    .logo{
+
+    }
+    .one, .two, .three{
+       width: 100%;
+
+    }
+    .one{
+        order: 0;
+    }
+    .two{
+        order: 1;
+
+    }
+    .three{
+        order: 2;
+    }
+    .title{
+        padding: 0;
+    }
+    .titletext{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2em;
+        color: #2d3c49;
+        vertical-align: top;
+        
+    }
+}
