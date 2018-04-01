@@ -1,57 +1,83 @@
 @media screen and (max-width: 450px){
-    body{
+    body {
         width: 450px;
         margin-left: auto;
         margin-right: auto;
     }
-    .one{
+
+
+    .one {
         order: 0;
     }
-    .two{
+
+
+    .two {
         order: 1;
 
     }
-    .three{
+
+
+    .three {
         order: 2;
     }
-    .title{
+
+
+    .title { 
         padding: 0;
     }
-    .titletext{
+
+
+    .titletext {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 2em;
         color: #2d3c49;
         vertical-align: top;
         
     }
-    .firstcr{
+
+
+    .firstcr {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
     }
 }
+
+
 @media screen and (min-width: 451px) and (max-width: 750px){
-    body{
+    body {
         width: 85%;
         margin-left: auto;
         margin-right: auto;
     }
-    .one{
+
+
+    .one {
         order: 2;
     }
-    .two{
+
+
+    .two {
         order: 0;
 
     }
-    .three{
+
+
+    .three {
         order: 2;
     }
-    .logo{
+
+
+    .logo {
         width: 80%;
     }
 }
+
+
 @media screen and  (min-width: 1200px) {
-    body{
+    body {
         width: 1600px;
     }
+
+    
 }
